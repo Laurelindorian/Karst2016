@@ -2,7 +2,7 @@
 # R code to pull data from websites for weather and stream flow and incorporate into one file
 
 ####______________________
-# scrape weather data for nearest National Weather Service site (Cahokia, IL, USA, site code LSX) for time period encompassing sampling
+# scrape weather data for nearest National Weather Service site (Cahokia, IL, USA, website site code LSX) for time period encompassing sampling
 # create a function called "get.weather.from.forecast" that pulls the data from the website
 get.weather.from.forecast <- function(version,site="LSX",issuedby="CPS",product="CF6") {
   result.table <- c()
